@@ -34,3 +34,39 @@
 * register_object_attrs  
 * unifiable  
 
+# arith.py
+
+* gt
+* lt
+* lor
+* gte = lor(gt, eq)
+* lte = lor(lt, eq)
+* binop
+* sub
+* div
+
+# core.py
+
+* fail
+* success
+* eq
+* membero
+* lall
+* lallfirst
+* lany
+* lallearly
+* earlysafe
+* earlyorder
+* conde
+* lanyseq
+* condeseq
+* run
+* EarlyGoalError
+* goalexpand
+* goaleval
+
+# facts.py
+
+* Relation
+* fact
+* facts
